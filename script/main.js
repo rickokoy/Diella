@@ -14,6 +14,7 @@ window.addEventListener('load', () => {
       document.querySelector('.song').play();
       resolveFetch().then(animationTimeline());
     } else {
+      document.querySelector('.song').play();
       resolveFetch().then(animationTimeline());
     }
   })
